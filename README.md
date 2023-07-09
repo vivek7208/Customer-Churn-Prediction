@@ -59,9 +59,16 @@ This notebook uses the following machine learning models:
 
 ## Images
 
-(Placeholder for images of Histograms for each numeric feature)
+![image](https://github.com/vivek7208/Churn_Prediction/assets/65945306/e25219ce-4af5-41d1-b8ca-40a1121dc8c1)
 
-(Placeholder for images of confusion matrix plots for the 4 models)
+
+|                         | LightGBM with AMT | CatBoost with AMT | TabTransformer with AMT | AutoGluon-Tabular |
+|-------------------------|------------------:|------------------:|------------------------:|------------------:|
+| Accuracy                |          0.895556 |          0.953333 |                0.960000 |          0.980000 |
+| F1                      |          0.894855 |          0.953229 |                0.960526 |          0.980044 |
+| AUC                     |          0.965412 |          0.991407 |                0.992040 |          0.997926 |
+
+Each column represents a different model, and the rows represent different metrics (Accuracy, F1, and AUC) for each model.
 
 ## Cleaning Up
 
@@ -69,4 +76,4 @@ To avoid incurring unnecessary charges, remember to delete the endpoint correspo
 
 ## Usage
 
-You can use this template to evaluate the performance of LightGBM, CatBoost, TabTransformer, and AutoGluon-Tabular on your own dataset. The notebook was tested in Amazon SageMaker Studio on ml.t3.medium instance with Python 3 (Data Science) kernel.
+You can use this notebook to evaluate the performance of LightGBM, CatBoost, TabTransformer, and AutoGluon-Tabular on your own dataset. The notebook was tested in Amazon SageMaker Studio on ml.t3.medium instance with Python 3 (Data Science) kernel.

@@ -1,9 +1,3 @@
-# Churn_Prediction
-
-dont publish it yet there are preivate code in them
-
-Absolutely, here's the updated README with the documentation links for each model:
-
 # Customer Churn Prediction with LightGBM, CatBoost, TabTransformer, and AutoGluon-Tabular in Amazon SageMaker
 
 This repository contains a Jupyter notebook that demonstrates how to use machine learning (ML) for the automated identification of unhappy customers, also known as customer churn prediction. The notebook employs Amazon SageMaker's implementation of [LightGBM](https://lightgbm.readthedocs.io/en/latest/), [CatBoost](https://catboost.ai/), [TabTransformer](https://arxiv.org/abs/2012.06678), and [AutoGluon-Tabular](https://auto.gluon.ai/stable/index.html) algorithms to train and host a customer churn prediction model using Amazon SageMaker's Automatic Model Tuning (AMT).

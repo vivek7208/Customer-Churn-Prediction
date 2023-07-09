@@ -53,7 +53,8 @@ This notebook uses the following machine learning models:
 
 ## Images
 
-![image](https://github.com/vivek7208/Churn_Prediction/assets/65945306/e25219ce-4af5-41d1-b8ca-40a1121dc8c1)
+![image](https://github.com/vivek7208/Customer-Churn-Prediction/assets/65945306/f95c5cfa-13ef-4c4d-a2b1-b7230aefe97a)
+
 
 
 |                         | LightGBM with AMT | CatBoost with AMT | TabTransformer with AMT | AutoGluon-Tabular |
